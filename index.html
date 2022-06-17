@@ -1,36 +1,28 @@
 <html>
 
 <header>
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+          }
+        });
+      </script>
+          
+      <script type="text/javascript"
+              src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
-        div {
-            border-style: solid;
-            border-color: RED;
-            border-radius: 4px;
-            width: 60px;
-        }
 
-        .mydiv {
-            border-color: rgb(19, 37, 233);
-        }
-    </style>
-</header>
-<body>
-    <h1 >
-        Hello world!
-      </h1>
-    <div>
-        hELLO
-    </div>
-    <div>
-        hELLO
-    </div>
-    <div class ="mydiv">
-        hELLO
-    </div>
     <br>
     
+
     $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
     <video width = "199px" controls src="https://user-images.githubusercontent.com/58366614/174284390-dcf0235c-e2b6-44be-af77-f3daf94a649d.mp4"></video>
@@ -54,16 +46,6 @@ $$  \int_\Omega \frac{\rho}{\epsilon_0} \de V = \int E \de A  $$
 
 where the RHS term represent the flux of the electric field through the boundary of domain $$\Omega$$ and the LHS represent the integral of the charge density in the volume, i.e. the total amount of charge contained into the domain $$\Omega$$.
 This equation is obtained substituting the 1st Maxwell law into the LHS integral, by substituting:
-
-* 174284390-dcf0235c-e2b6-44be-af77-f3daf94a649d
-* dfdfdfdf
-<ul>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ul>
-</body>
-</html>
 
 
 
@@ -121,20 +103,18 @@ $$ \dv{t} m = \dv{t} \rho \de x = u(x+ \de x) - u(x) \Rightarrow \dv{t} \rho = \
 
 So we see how the time variation of mass in this case is the derivative of the velocity field: in dimension higher than one this concept is generalized by the \gr{divergence}
 
-<h2> 2D case: <h2>
+<h2> 2D case: </header>h2>
 
 -- ATTACH VIDEO FLUX THROUGH SQUARE--
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hjMx8EuyZJ8" title="RandomTitle" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</p>
 
 With the same fashion we compute:
 
-$$  \dv{t} \rho = \rho \Big[  u(x,y) - u(x+ \de x,y) \Big] + \rho \Big[  v(x,y) - v(x,y+ \de y) \Big] $$ --CHECK!! $$ \rho$$ !! --
+$$  \dv{t} \rho = \rho \Big[  u(x,y) - u(x+ \de x,y) \Big] + \rho \Big[  v(x,y) - v(x,y+ \de y) \Big] $$ 
+--CHECK!! $ \rho$ !! --
 
-and for $$ \de x , \de y \to 0  $$ it becomes:
+<br>
+
+and for $ \de x , \de y \to 0  $ it becomes:
 
 $$  \dv{t} \rho = - \rho \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
 
@@ -192,4 +172,46 @@ that intuitively means that the divergence of the velocity field is given only b
 --VIDEO WITH CHEMICALS REACTIONS AND COMPOUNDS DENSITIES VARIATIONS--
 
 
+<h2> MY STUFF </h2>
 
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <!--
+  <style>
+        div {
+            border-style: solid;
+            border-color: RED;
+            border-radius: 4px;
+            width: 60px;
+        }
+
+        .mydiv {
+            border-color: rgb(19, 37, 233);
+        }
+    </style>
+</header>
+<body>
+    <h1 >
+        Hello world!
+      </h1>
+    <div>
+        hELLO
+    </div>
+    <div>
+        hELLO
+    </div>
+    <div class ="mydiv">
+        hELLO
+    </div>
+-->
+
+
+
+
+
+</body>
+</html>
